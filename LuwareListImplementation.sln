@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuwareListImplementation", "LuwareListImplementation\LuwareListImplementation.csproj", "{B0A879C5-6840-4DCA-B098-BF841FDE92BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuwareListTests", "LuwareListTests\LuwareListTests.csproj", "{609DD872-A7AA-4502-965E-DEEBBB7D0EBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0A879C5-6840-4DCA-B098-BF841FDE92BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A879C5-6840-4DCA-B098-BF841FDE92BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A879C5-6840-4DCA-B098-BF841FDE92BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A879C5-6840-4DCA-B098-BF841FDE92BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609DD872-A7AA-4502-965E-DEEBBB7D0EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609DD872-A7AA-4502-965E-DEEBBB7D0EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609DD872-A7AA-4502-965E-DEEBBB7D0EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609DD872-A7AA-4502-965E-DEEBBB7D0EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2B4EB54-F244-4629-84E5-7506C03FB4E7}
+	EndGlobalSection
+EndGlobal
