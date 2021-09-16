@@ -6,6 +6,8 @@ internal state is sliced into multiple arrays etc.
 
 Also, I could've added scenarios with different types other than int, but figured I'd be testing the framework more than anything.
 
+Most of the tests were written after the code, as I wasn't sure what the code would be like in the first place.
+
 <b>Implementation</b>:
 
   <b>Error handling</b> - I took the liberty to practically ignore any error handling or safety code, there's a dozen places I could check if indexes were inside the bounds of the array. 
@@ -16,5 +18,6 @@ Also, I could've added scenarios with different types other than int, but figure
   
   <b>Use of Span</b> - I've found out about Span just as I was looking for a way to slice an array without using copy (which is the standard way). I hope that doesn't count as violating the rules :)
   
-  <b>Version</b> - My initial idea was to hash the internal array. I tried a number of ways to do it but the code was getting more complicated than I wanted, a simple counter at every writing
-  change seemed enough. I'm a bit skeptical about thread safety but I'm  at least incremeting it always, that reduces the chances of collision. 
+  <b>Version</b> - My initial idea was to hash the internal array. I tried a number of ways to do it but the code was getting more complicated than I wanted, a simple counter at every writing change seemed enough. I'm a bit skeptical about thread safety but I'm at least incremeting it always, that reduces the chances of collision. 
+  
+ 
