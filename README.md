@@ -1,7 +1,5 @@
 # Luware List Implementation
 
-Notes
-
 <b>Tests</b>: 
 I followed an "outside-in" approach, whereas I look for the observable behavior, trying not to reveal the implementation. Thats why there's no particular test checking for how
 internal state is sliced into multiple arrays etc. 
