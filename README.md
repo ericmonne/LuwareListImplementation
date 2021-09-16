@@ -6,8 +6,6 @@ internal state is sliced into multiple arrays etc.
 
 Also, I could've added scenarios with different types other than int, but figured I'd be testing the framework more than anything.
 
-Most of the tests were written after the code, as I wasn't sure what the code would be like in the first place.
-
 <b>Implementation</b>:
 
   <b>Error handling</b> - I took the liberty to practically ignore any error handling or safety code, there's a dozen places I could check if indexes were inside the bounds of the array. 
