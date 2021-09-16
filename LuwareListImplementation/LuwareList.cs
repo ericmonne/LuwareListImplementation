@@ -2,8 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Runtime.CompilerServices;
 
 namespace LuwareListImplementation 
 {
@@ -24,7 +22,7 @@ namespace LuwareListImplementation
 
         public IEnumerator<T> GetEnumerator() 
         {
-            return new CustomIEnumerator<T>(this);
+            return new LuwareIEnumerator<T>(this);
         }
 
         IEnumerator IEnumerable.GetEnumerator() 
@@ -98,12 +96,14 @@ namespace LuwareListImplementation
         }
     }
 
-    public class CustomIEnumerator<T> : IEnumerator<T> {
+    public class LuwareIEnumerator<T> : IEnumerator<T> 
+    {
         private LuwareList<T> elements = new LuwareList<T>();
         private int previousVersion = 0;
         private int index;
 
-        public CustomIEnumerator(LuwareList<T> elements) {
+        public LuwareIEnumerator(LuwareList<T> elements) 
+        {
             previousVersion = elements.version;
             this.elements = elements;
             this.index = -1;
