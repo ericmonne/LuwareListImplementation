@@ -18,4 +18,4 @@ Also, I could've added scenarios with different types other than int, but figure
   
   <b>Version</b> - My initial idea was to hash the internal array. I tried a number of ways to do it but the code was getting more complicated than I wanted, a simple counter at every writing change seemed enough. I'm a bit skeptical about thread safety but I'm at least incremeting it always, that reduces the chances of collision. 
   
- 
+ testei uma mudança pra ver qual é
